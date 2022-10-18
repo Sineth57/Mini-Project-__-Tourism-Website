@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To Do</title>
+  <link rel="stylesheet" href="todo.css">
+
+
+</head>
+  <body>
+      <h1>Where are you going to visit...?</h1>
+      <h6>Select from the following list</h6>
+      <hr>
+     
+     <div class="box" >
+         <a href="https://www.google.com/maps/place/Sri+Lanka/@7.8571778,78.4609778,7z/data=!3m1!4b1!4m5!3m4!1s0x3ae2593cf65a1e9d:0xe13da4b400e2d38c!8m2!3d7.873054!4d80.771797" target="_blank" ><b>Map</b></a>
+     </div>
+     <div class="button">
+         <a href="Home.html" class="butn">BACK TO HOME</a>
+     </div>
+     <div class="button4">
+        <a href="Galary.html" class="butn4">GO TO PROVINCES</a>
+    </div>
+
+   
+    <div class="main" v-cloak>
+      <div class="container">
+        <div>
+          <h2 class="head">To Do</h2>
+          <div v-show="totr" class="dis">Temple of the Tooth</div>
+          <div v-show="drct" class="dis">Sigiriya World Heritage Site</div>
+          <div v-show="vpne" class="dis">Royal Botanical Gardens</div>
+          <div v-show="at" class="dis">Udawattekele Sanctuary</div>
+  
+          <div v-show="ab" class="dis">Arugam Bay</div>
+          <div v-show="kt" class="dis">Muhudu Maha Viharaya</div>
+          <div v-show="ff" class="dis">Nilaveli Beach</div>
+          <div v-show="khws" class="dis">Velgam Vehera</div>
+          
+           <div v-show="nkk" class="dis">Nallur Kovil</div>
+          <div v-show="nrv" class="dis">Mannar Island</div>
+          <div v-show="fj" class="dis">Jaffna Public Library</div>
+          <div v-show="rsmnp" class="dis">Neduntheevu (Delft Island)</div>
+  
+          <div v-show="gdf" class="dis">Galle Fort</div>
+          <div v-show="bnp" class="dis">Mirissa Beach</div>
+          <div v-show="sfr" class="dis">Sinharaja Forest Reserve</div>
+          <div v-show="gl" class="dis">Hikkaduwa Beach</div>
+  
+          <div v-show="gt" class="dis">Gangaramaya (Vihara) Buddhist Temple</div>
+          <div v-show="gf" class="dis">National Zoological Gardens of Sri Lanka</div>
+          <div v-show="tnm" class="dis">Colombo Fort</div>
+          <div v-show="imh" class="dis">Negombo Beach</div>
+  
+          <div v-show="rw" class="dis"> Yapahuwa Rock Fortress</div>
+          <div v-show="mt" class="dis">Panduwasnuwara Kingdom</div>
+          <div v-show="yap" class="dis">Ethugala</div>
+          <div v-show="abs" class="dis">Anawilundawa Wetland Sanctuary</div>
+  
+          <div v-show="mnp" class="dis">Wilpattu National Park</div>
+          <div v-show="knp" class="dis">Minneriya National Park</div>
+          <div v-show="ruw" class="dis">Mihintale</div>
+          <div v-show="mihin" class="dis">Ruwanwelisaya Dagaba</div>
+  
+          <div v-show="na" class="dis">Horton Plains National Park</div>
+          <div v-show="rf" class="dis">Ella Rock</div>
+          <div v-show="aba" class="dis">Demodara Nine Arch Bridge</div>
+          <div v-show="ndpo" class="dis">Dunhinda Falls</div>
+  <!-- //da -->
+          <div v-show="ap" class="dis"> Pinnawala Elephant Orphanage</div>
+          <div v-show="eo" class="dis">Udawalawe Nationalpark</div>
+          <div v-show="bf" class="dis">Bopath Waterfall</div>
+          <div v-show="pah" class="dis">Millennium Elephant Foundation</div>
+        </div>
+        <div>
+          <p></p>
+        </div>
+      </div>
+        <div class="pro" >
+          <div class="pname">
+            <h2>Central Province</h2>
+            <div class="p1">
+              <button v-on:click="totr = !totr">Temple of the Tooth </button>
+            </div>
+            <div class="p1">
+              <button v-on:click="drct = !drct">Sigiriya World Heritage Site</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="vpne = !vpne"> Royal Botanical Gardens</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="at = !at">Udawattekele Sanctuary</button>
+            </div>
+          </div>
+          <div class="pname">
+            <h2>Eastern Province</h2>
+            <div class="p1">
+              <button v-on:click="ab = !ab">Arugam Bay</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="kt = !kt">Muhudu Maha Viharaya</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="ff = !ff">Nilaveli Beach</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="khws = !khws">Velgam Vehera</button>
+            </div>
+          </div>
+          <div class="pname">
+            <h2>Nothern Province</h2>
+            <div class="p1">
+              <button v-on:click="nkk = !nkk">Nallur Kovil</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="nrv = !nrv">Mannar Island</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="fj = !fj">Jaffna Public Library</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="rsmnp = !rsmnp">Neduntheevu (Delft Island)</button>
+            </div>
+          </div>
+          <div class="pname">
+            <h2>Southern Province</h2>
+            <div class="p1">
+              <button v-on:click="gdf = !gdf">Galle Fort</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="bnp = !bnp">Mirissa Beach</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="sfr = !sfr">Sinharaja Forest Reserve</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="gl = !gl">Hikkaduwa Beach</button>
+            </div>
+          </div>
+          <div class="pname">
+            <h2>Western Province</h2>
+            <div class="p1">
+              <button v-on:click="gt = !gt">Gangaramaya (Vihara) Buddhist Temple</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="gf = !gf">National Zoological Gardens of Sri Lanka</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="tnm = !tnm">Colombo Fort</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="imh = !imh">Negombo Beach</button>
+            </div>
+          </div>
+          <div class="pname">
+            <h2>North Wastern Province</h2>
+            <div class="p1">
+              <button v-on:click="rw = !rw"> Yapahuwa Rock Fortress</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="mt = !mt">Panduwasnuwara Kingdom</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="yap = !yap">Ethugala</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="abs = !abs">Anawilundawa Wetland Sanctuary</button>
+            </div>
+          </div>
+          <div class="pname">
+            <h2>North Central Province</h2>
+            <div class="p1">
+              <button v-on:click="mnp = !mnp">Wilpattu National Park</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="knp = !knp">Minneriya National Park</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="ruw = !ruw">Mihintale</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="mihin = !mihin">Ruwanwelisaya Dagaba</button>
+            </div>
+          </div>
+          <div class="pname">
+            <h2>Uva Province</h2>
+            <div class="p1">
+              <button v-on:click="na = !na">Horton Plains National Park</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="rf = !rf">Ella Rock</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="aba = !aba">Demodara Nine Arch Bridge</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="ndpo = !ndpo">Dunhinda Falls</button>
+            </div>
+          </div>
+          <div class="pname">
+            <h2>Sabaragamuwa Province</h2>
+            <div class="p1">
+              <button v-on:click="ap = !ap"> Pinnawala Elephant Orphanage</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="eo = !eo">Udawalawe Nationalpark</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="bf = !bf">Bopath Waterfall</button>
+            </div>
+            <div class="p1">
+              <button v-on:click="pah = !pah">Millennium Elephant Foundation</button>
+            </div>
+          </div>
+        </div>
+      </div>  
+
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script src="https://unpkg.com/vue@next"></script>
+      <script>
+        let app = Vue.createApp({
+          data: function(){
+            return{
+              totr:false,
+              drct:false,
+              vpne:false,
+              at:false,
+    
+              ab:false,
+              kt:false,
+              ff:false,
+              khws:false,
+    
+              nkk:false,
+              nrv:false,
+              fj:false,
+              rsmnp:false,
+    
+              gdf:false,
+              bnp:false,
+              sfr:false,
+              gl:false,
+    
+              gt:false,
+              gf:false,
+              tnm:false,
+              imh:false,
+    
+              rw:false,
+              mt:false,
+              yap:false,
+              abs:false,
+    
+              mnp:false,
+              knp:false,
+              ruw:false,
+              mihin:false,
+    
+              na:false,
+              rf:false,
+              aba:false,
+              ndpo:false,
+    // sdsvdva
+              ap:false,
+              eo:false,
+              bf:false,
+              pah:false
+            }
+          }     
+        })
+        app.mount('.main')
+        // app.mount('.dis')
+      </script>
+
+    </body>
+</html>

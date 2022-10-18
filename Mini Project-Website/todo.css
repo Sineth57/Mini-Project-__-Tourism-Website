@@ -1,0 +1,142 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:Century Gothic;
+}
+
+body{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(thumb2-lighthouse-palm-trees-sunset-evening-beach.jpg);
+	height: 220vh;
+	background-size: cover;
+	background-position: center;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    
+}
+h1 {
+    color: rgb(201, 175, 61);
+    font-size: 70px;
+}
+.box {
+	padding-top: 0.6%;
+	padding-left: 85%;
+}
+h6 {
+	font-size: 30px;
+	color: rgb(235, 241, 139);
+}
+
+
+.box a{
+	width: 170px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: #c5b527;
+	border-radius: 28px;
+	box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+	letter-spacing: 2px;
+    font-size: 20px;
+    color: black;
+}
+	
+.box a:hover{
+	letter-spacing: 7px;
+	background-color: #e1c41e;
+	transition: all ease 0.2s;
+}
+.button {
+    position: absolute;
+    position: absolute;
+	top: 28%;
+	left: 76%;
+	transform: translate(-50%,-50%);
+
+}
+.butn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+    
+}
+
+.butn:hover{
+	background-color:#fff;
+	color: #000;
+   
+}
+
+.button4 {
+    position: absolute;
+    position: absolute;
+	top: 28%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+
+}
+.butn4{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+    
+}
+
+.butn4:hover{
+	background-color:#fff;
+	color: #000;
+   
+}
+
+
+[v-cloak]{
+	display: none;
+}
+.container{
+  width: 600px;
+  height: 500px;
+  background: #d6a12e;
+	box-shadow: 0px 0px 10px rgba(247, 243, 243, 0.5);
+	border-radius: 30px;
+	margin-top: 80px;
+	margin-left: 650px;
+	margin-bottom: 50px;
+	position: fixed;
+}
+
+.head{
+	align-items: center;
+	padding-left: 270px;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(37, 37, 37);
+}
+
+.container p{
+	margin: 30px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(24, 20, 20);
+	background-color: aqua;
+}
+
+.pro{
+	padding-top: 100px;
+	
+}
+.head {
+	color: rgb(22, 22, 22);
+}
+h2 {
+	color: rgb(245, 194, 100);
+	font-size: 30px;
+	text-shadow: darkblue;
+	text-decoration: wavy;
+	letter-spacing: 1px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
